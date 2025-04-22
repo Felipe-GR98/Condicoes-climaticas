@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+main {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+#buscar {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+#cidade {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+#buscar input {
+  margin: 0px 15px;
+  padding: 0px 5px;
+}
