@@ -9,21 +9,17 @@
   <body>
     <header></header>
     <main>
-      <h1>Climax - seu clima em todo mundo</h1>
-      <section>
-        <div id="buscar">
-          <input type="search" placeholder="Digite a Cidade" />
-          <button type="submit">Buscar</button>
-        </div>
+      <h1>Previsão do tempo</h1>
+      <section id="buscar">
+        <form>
+          <label for="input">Localização :</label>
+          <input type="text" placeholder="Digite a Cidade" id="searchCity" />
+          <button>Buscar</button>
+        </form>
       </section>
-      <section>
-        <div id="cidade">
-          <span>Cidade</span>
-          <img src="" alt="clima aqui" />
-        </div>
-      </section>
+      <section id="tempoInfo"></section>
     </main>
     <footer></footer>
-    <script src="index.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>

@@ -8,10 +8,15 @@ body {
 }
 main {
   color: white;
+  background-color: rgb(67, 68, 68);
+  margin: 250px auto;
+  width: 500px;
+  border-radius: 5px;
 }
 
 h1 {
   text-align: center;
+  margin: 20px 0px 0px 0px;
 }
 
 #buscar {
@@ -27,4 +32,29 @@ h1 {
 #buscar input {
   margin: 0px 15px;
   padding: 0px 5px;
+}
+
+#graus {
+  display: flex;
+  justify-content: center;
+}
+
+#tempoInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+span {
+  display: flex;
+  align-items: center;
+  margin: 0px 10px;
+}
+button {
+  width: 70px;
+  border: 1px black;
+  background-color: rgb(55, 170, 55);
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 2px;
 }
