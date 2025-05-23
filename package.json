@@ -1,0 +1,24 @@
+{
+  "name": "condicoes-climaticas",
+  "version": "1.0.0",
+  "description": "Condições climaticas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felipe-GR98/Condicoes-climaticas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Felipe-GR98/Condicoes-climaticas/issues"
+  },
+  "homepage": "https://github.com/Felipe-GR98/Condicoes-climaticas#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
